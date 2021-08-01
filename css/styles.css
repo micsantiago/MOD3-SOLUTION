@@ -1,12 +1,13 @@
 body {
   font-size: 16px;
   color: rgba(34, 33, 33, 0.884);
-  background-color:#aed180 ;
+  /*background-color:#aed180 ;*/
+  background-image: url("../images/bg2.jpg");
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 #header-nav {
-  background-color: #208282;
+  background-color: #20828240;
   border-radius: 0;
   border: 0;
   min-height: 70px;
@@ -14,7 +15,7 @@ body {
 
 .navbar-brand h1 {
   font-family: 'Lora', serif;
-  color: #80bad1;
+  color: #80cad1;
   font-size: 1.8em;
   text-transform: uppercase;
   font-weight: bold;
@@ -48,14 +49,12 @@ body {
 #page-title {
   font-weight: bold;
   margin-bottom: 30px;
+  text-transform: capitalize;
 }
 
 #main-text {
   padding-left: 20px;
   padding-right: 20px;
-}
-
-.text-background {
 }
 
 h3 {
@@ -65,22 +64,26 @@ h3 {
 .chickendiv {
   border:  3px solid #333;
   padding: 20px 40px 20px 40px;
-  background-color: rgb(67, 212, 205);
+  background-color: rgb(21 253 221);
   overflow: hidden;
   margin-bottom: 10px;
+  opacity: 0.52;
 }
 
 .beefdiv{
  border:   3px solid #333;
  padding: 20px 40px 20px 40px;
-  background-color: rgb(67, 212, 205);
+  background-color: rgb(21 253 221);
   overflow: hidden;
    margin-bottom: 10px;
+   opacity: 0.52;
 }
 
 .sushidiv {
  border:   3px solid #333;
  padding: 20px 40px 20px 40px;
-  background-color: rgb(67, 212, 205);
+  background-color: rgb(21 253 221);
   overflow: hidden;
+   margin-bottom: 10px;
+   opacity: 0.52;
 }
